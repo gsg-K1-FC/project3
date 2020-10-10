@@ -1,0 +1,30 @@
+body:
+ color #797979
+ font "Source Sans Pro",sans-serif;
+
+p font "Source Sans Pro",sans-serif;
+
+links:
+ font "Lora",serif;
+ color #555555
+
+header background : #d4d4d5
+
+nav links:
+ color #3a414e
+ font "Lora",serif;
+
+boxes background: #f9f9ff
+
+headers:
+ font "Lora",serif;
+ color #3a414e
+
+buttons:
+  background #222
+  font color #ff9907
+
+footer:
+ background #000000
+ font color #797979
+ headers color #ffffff
