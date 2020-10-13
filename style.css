@@ -74,7 +74,7 @@ footer p{
   padding: 0;
   line-height: 30px;
   font-size: 20px;
-  padding: 0;
+
   margin: 0px;
   margin-left: 0px;
   border: none;
@@ -128,12 +128,10 @@ footer p{
 }
 footer {
     width: 100%;
-    height: 1000px;
+    height: 1200px;
     
 }
-.footer-copyright{
-  margin-left: 100px;
-}
+
 .fimg{
   width: 80px;
   height: 80px;
@@ -142,7 +140,7 @@ footer {
 
 .container {
   
-  width: 500px;
+  width: 400px;
 }
 .footer-copyright{
   margin-left: 20px;
@@ -150,7 +148,37 @@ footer {
   text-align: center;
 }
 
-  
+  /*//////////////////////////////////////////////////////////*/
+  .main{
+    
+    width: 100%;
+    
+    flex-direction: column;
+    
+    
+  }
+  .left-content{
+    width: 100%;
+    
+    
+  }
+  .right-contnet{
+    width: 100%;
+    
+  }
+  .left-content-img img{
+    width: 100%;
+    height: 200px;
+  }
+  .left-content-img-a{
+    width: 100px;
+    
+  }
+  .left-content-img-a a{
+   margin:10px;
+   margin-top: 10px;
+  }
+
   
 }
 
@@ -179,6 +207,26 @@ footer {
     height: 65px;
     padding: 2px;
   }
+ 
+ .main{
+  display: flex;
+  width: 100%;
+  
+  flex-direction: column;
+  flex-flow: column wrap;
+  
+}
+.left-content{
+  width: 100%;
+  
+  
+}
+.right-contnet{
+  width: 100%;
+  
+}
+
+
 }  
 .main{
   display: flex;
@@ -190,15 +238,75 @@ footer {
 .left-content{
   width: 70%;
   margin: 15px;
-  height: 1000px;
-  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  
+  
 }
 .right-contnet{
   width: 30%;
   margin: 15px;
-  height: 800px;
-  border: 1px solid black;
+  
   left: 1000px;
  
 
+}
+
+.left-content-img{
+  position: relative;
+  width: 100%;
+}
+.left-content-img img{
+  width: 100%;
+  height: 400px;
+}
+.left-content-img-a{
+  width: 500px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  top: 370px;
+}
+.left-content-img-a a{
+ margin:20px;
+ margin-top: 40px;
+ text-decoration: none;
+padding: 10px;
+ height: 100%;
+ text-align: center;
+ color: #797979;
+
+}
+
+.a-first-content{
+  text-decoration: none;
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Lora",serif;
+}
+.a-second-content{
+  text-decoration: none;
+  font-family: "Lora",serif;
+  color: #797979;
+  font-weight: bold;
+
+}
+.left-content-a-p{
+  margin: 15px;
+  
+}
+.left-content-a-p p{
+  font-family: "Source Sans Pro",sans-serif;
+  color: #797979;
+}
+.left-content-b{
+  width: 160px;
+  padding: 15px;
+  color: orange;
+  background-color: #000000;
+}
+.fa-angle-double-right{
+  font-size: 25px;
+  margin-top: 5px;
 }
