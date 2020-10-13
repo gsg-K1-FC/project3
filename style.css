@@ -47,4 +47,123 @@ nav ul li a {
   color: #222222;
   padding: 10px;
 }
+.welcoming-container {
+  position: relative;
+  }
+  .first-picture {  
+    max-width: 100%;
+    height: auto;
+    padding: 75px 120px;
+    filter: brightness(80%);  
+    margin: 22px;
+    
+  }
+  .content {
+    position: absolute;
+    color: white; 
+    text-align: center;
+    top: 50%;
+    left :50%;
+    transform: translate(-50%, -50%);
+    font-family : 'Lora',serif;
+  }
+  .s1 {
+    font-size: 27px;
+  }
+  .s2{
+    font-size: 35px;
+  }
+ .s3{
+   font-size: 18px;
+ }
+ .toggle-button {
+   position: absolute;
+   top:.75rem;
+   right:1rem;
+   display : none;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 30px;
+   height: 30px;
+ }
+ .toggle-button  {
+   color: white;
+   background-color: black;
+   border-radius:18px;
+   height: 40px;
+   weight: 100%;
+ }
+ @media (min-width: 481px) and (max-width:767px) {
+   .toggle-button {
+     display: flex;
+   }
+   nav ul li {
+     display : none;
+   }
+   .icons {
+    display:none;
+   }
+   header {
+     background-color: black;
+     height: 15px;
+     width:100%;
+   }
+   .first-picture {
+    padding-right: 30px;
+    padding-left: 50px;
+    padding-top : 100px;
+    margin: auto;
+    width: 100%;
+   }
+   .welcoming-container {
+     display : flex;
+     justify-content: center;
+   }
+   .s1 {
+     font-size: 6px;
+     color:   rgb(240,240,240);
+   }
+   .s2 {
+     font-size: 12px;
+     color:   rgb(240,240,240);
+   }
+   .s3 {
+     font-size : 6px;
+     color:   rgb(240,240,240);
+   }  
+ }
+ @media (min-width:768px) and (max-width:1024px) {
+   .welcoming-container {
+    display: flex;
+    justify-content: center;
+  
+  }
+  .first-picture {
+    padding: 100px 90px;
+  }
+  .s1 {
+    font-size: 12px;
+  }
+  .s2 {
+    font-size: 18px;
+  }
+  .s3 {
+    font-size : 12px;
+  }
+  
+  .toggle-button {
+    display: flex; 
+  }
+  nav ul li {
+    display : none;
+  }
+  .icons {
+   display:none;
+  }
+  header {
+    background-color: black;
+    height: 15px;
+    width:100%;
+  }
+ }
 
