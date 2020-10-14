@@ -22,3 +22,6 @@ ________________________________________________________________________________
    
    **Bashaer**: Did the header and section (1) ;
  * we used social media to communicate and update on each other's progress in the project.
+
+Git hub Pages for this repo is:
+https://gsg-k1-fc.github.io/project3/
