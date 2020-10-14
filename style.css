@@ -259,10 +259,6 @@
         bottom: 0px;
         background-color: #fff;
     }
-    /*
-    @media (min-width: 768px) and (max-width: 1024px) {}
-    @media (min-width: 481px) and (max-width: 767px) {}
-    610*/
     
     @media (min-width: 630px) and (max-width: 930px) {
         #pagemidcont {
