@@ -11,7 +11,6 @@ header{
   padding: 40px 0;
   width:100%;  
 }
-
 .navLink:hover {
 color: #ff9907;
 }
@@ -55,8 +54,7 @@ nav ul li a {
     height: auto;
     padding: 75px 120px;
     filter: brightness(80%);  
-    margin: 22px;
-    
+    margin: 22px;   
   }
   .content {
     position: absolute;
@@ -76,22 +74,17 @@ nav ul li a {
  .s3{
    font-size: 18px;
  }
- .toggle-button {
-   position: absolute;
-   top:.75rem;
-   right:1rem;
-   display : none;
-   flex-direction: column;
-   justify-content: space-between;
-   width: 30px;
-   height: 30px;
- }
  .toggle-button  {
+  position: absolute;
    color: white;
    background-color: black;
-   border-radius:18px;
    height: 40px;
    weight: 100%;
+   top:.75rem;
+   right:1rem;
+   display:none;
+   justify-content: space-between;
+   flex-direction: column;
  }
  @media (min-width: 481px) and (max-width:767px) {
    .toggle-button {
@@ -136,21 +129,17 @@ nav ul li a {
    .welcoming-container {
     display: flex;
     justify-content: center;
-  
   }
   .first-picture {
     padding: 100px 90px;
   }
-  .s1 {
+  .s1,
+  .s3 {
     font-size: 12px;
   }
   .s2 {
     font-size: 18px;
   }
-  .s3 {
-    font-size : 12px;
-  }
-  
   .toggle-button {
     display: flex; 
   }
