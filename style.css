@@ -757,7 +757,7 @@ footer p {
 }
 
 
-@media (min-width: 630px) and (max-width: 930px) {
+@media (min-width: 630px) and (max-width: 980px) {
     #pagemidcont {
         flex-direction: column;
         width: 610px;
