@@ -6,7 +6,7 @@ ________________________________________________________________________________
 # **WHAT is this website** ?
 * *Title* :- Sensive website, this is the logo. 
 
-![Image](https://raw.githubusercontent.com/gsg-K1-FC/project3/bashaer/images/logo.png) 
+![Image](https://raw.githubusercontent.com/gsg-K1-FC/project3/main/images/logo.png) 
 
 * **Brief Description** :-  A responsive website which displays several topics on travel sites,fashion ,latest news and also populer posts. 
 * **Technologies used**:- This website mainly consists of Header with section1 under, the body of the website which contains several divs each has two divs, one take a larger side of the website that the other, and the footer which also contains divs that organize pictures and contacting detail.
