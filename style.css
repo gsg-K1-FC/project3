@@ -664,7 +664,8 @@ footer p {
        padding-right: 30px;
        padding-left: 30px;
        padding-top : 100px;
-       height: 70vh;
+       height: 80vh;
+       width: 100%;
         }
       .s1 {
         font-size: 15px;
@@ -728,6 +729,9 @@ footer p {
         margin: 2px;
         margin-top: 10px;
     }
+    .welcoming-container{
+      width: 100%;
+    }
 }
 @media (max-width: 480px) {
     header {
@@ -746,6 +750,7 @@ footer p {
         padding-top:100px;
         position: relative ;
         height: 70vh;
+        width: 100%;
       }
       .s1 ,
       .s3 {
