@@ -258,17 +258,17 @@ footer {
 }
 
 .fimg{
-  width: 65px;
-  height: 65px;
-  padding: 20px;
+  width: 15%;
+  height: 60px;
+  padding: 10px;
 }
 
 .container {
   
-  width: 400px;
+  width: 100%;
 }
 .footer-copyright{
-  margin-left: 20px;
+  margin-left: 5px;
   margin-top: 10px;
   text-align: center;
 }
